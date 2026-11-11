@@ -12,6 +12,18 @@
       "type": "shell",
       "command": "bash scripts/doctor.sh",
       "problemMatcher": []
+    },
+    {
+      "label": "Joomla: start test site",
+      "type": "shell",
+      "command": "bash scripts/start-test-site.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Joomla: start owcasiatw",
+      "type": "shell",
+      "command": "bash scripts/start-owcasiatw.sh",
+      "problemMatcher": []
     }
   ]
 }

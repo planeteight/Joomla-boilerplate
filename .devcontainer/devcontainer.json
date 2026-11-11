@@ -1,10 +1,21 @@
 {
-  "name": "ai-dev-template",
+  "name": "Joomla 6 migration (PHP 8.4)",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
   },
   "remoteUser": "vscode",
+  "forwardPorts": [8080, 8081],
+  "portsAttributes": {
+    "8080": {
+      "label": "Joomla test site",
+      "onAutoForward": "openBrowser"
+    },
+    "8081": {
+      "label": "Imported Joomla site",
+      "onAutoForward": "notify"
+    }
+  },
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": true,
@@ -37,6 +48,7 @@
         "saoudrizwan.claude-dev",
         "eamodio.gitlens",
         "EditorConfig.EditorConfig",
+        "bmewburn.vscode-intelephense-client",
         "ms-python.python",
         "ms-vscode.makefile-tools"
       ]

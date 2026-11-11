@@ -4,6 +4,7 @@
     "saoudrizwan.claude-dev",
     "EditorConfig.EditorConfig",
     "eamodio.gitlens",
+    "bmewburn.vscode-intelephense-client",
     "ms-python.python",
     "ms-vscode.makefile-tools"
   ]
