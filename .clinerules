@@ -1,0 +1,8 @@
+# Cline Project Rules
+
+1. Read files before proposing edits.
+2. Keep changes scoped to the user request.
+3. Prefer explicit and maintainable code.
+4. Run local checks when available.
+5. Summarize edits with exact file paths.
+6. Do not use destructive git commands unless asked.
